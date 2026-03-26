@@ -2,87 +2,75 @@
 
 ## Overview
 
-This project focuses on detecting events and verifying trust using blockchain technology. It aims to enhance data integrity, transparency, and security by leveraging decentralized systems.
-
----
-
-## Problem Statement
-
-Traditional systems rely on centralized authorities, which can lead to:
-
-* Data manipulation
-* Lack of transparency
-* Single point of failure
-
-This project solves these issues using blockchain-based verification.
-
----
-
-## Solution
-
-A decentralized system that:
-
-* Detects events in real-time
-* Verifies trust using blockchain
-* Ensures secure and tamper-proof data handling
-
----
-
-## Tech Stack
-
-* **Frontend:** (Add if you used React / HTML / etc.)
-* **Backend:** Node.js
-* **Blockchain:** (Ethereum / Smart Contracts if used)
-* **Language:** JavaScript
+This project focuses on detecting fake news and verifying trust using a combination of **Machine Learning (NLP)** and **Blockchain technology**.
+It aims to enhance **data integrity, transparency, and reliability** in digital content systems.
 
 ---
 
 ## Features
 
-* Event Detection System
-* Trust Verification Mechanism
-* Secure Data Processing
-* Decentralized Architecture
+* Fake news detection using Machine Learning (NLP)
+* Blockchain-based trust verification
+* Web-based interface for user interaction
+* Real-time prediction and validation
+* Dataset-driven model training
+
+---
+
+## Tech Stack
+
+* **Programming Language:** Python
+* **Framework:** Django
+* **Machine Learning:** NLP (Text Classification)
+* **Blockchain:** Solidity (Smart Contracts)
+* **Database:** SQLite
 
 ---
 
 ## Project Structure
 
 ```
-hello-eth/
-│── src/
-│── contracts/
-│── scripts/
-│── package.json
-│── README.md
+Trust_Verification/
+│── Dataset/              # Training and testing data
+│── FakeMedia/            # Media-related data
+│── FakeMediaApp/         # Django application
+│── model/                # ML model files
+│── screenshots/          # Project screenshots
+│── manage.py             # Django entry point
+│── FakeMedia.json        # Data file
+│── FakeMedia.sol         # Smart contract
+│── db.sqlite3            # Database
+│── test.py               # Testing script
 ```
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
-### 1.Clone the repository
-
-```
-git clone https://github.com/AymanRais/Blockchain-Based-Event-Detection-Trust-Verification.git
-```
-
-### 2.Navigate to project folder
+### 1️.Clone the repository
 
 ```
-cd hello-eth
+git clone https://github.com/YOUR_USERNAME/Trust-Verification.git
+cd Trust-Verification
 ```
 
-### 3.Install dependencies
+### 2️.Install dependencies
 
 ```
-npm install
+pip install -r requirements.txt
+```
+---
+
+### 3️.Run the project
+
+```
+python manage.py runserver
 ```
 
-### 4.Run the project
+Open browser:
 
 ```
-npm start
+http://127.0.0.1:8000/
 ```
 
 ---
@@ -103,10 +91,38 @@ npm start
 
 ---
 
-## Future Improvements
+## How It Works
 
-* Add UI dashboard
-* Improve smart contract efficiency
-* Integrate real-time analytics
+1. User inputs news/content
+2. NLP model analyzes text
+3. System classifies content as real/fake
+4. Blockchain ensures tamper-proof verification
+5. Results displayed on web interface
 
 ---
+
+## Use Cases
+
+* Fake news detection platforms
+* Social media verification systems
+* News authentication tools
+* Crisis management systems
+
+---
+
+## Future Enhancements
+
+* Improve model accuracy with deep learning
+* Deploy on cloud (AWS / Azure)
+* Add REST API support
+* Integrate real-time blockchain networks
+
+---
+
+## 👨‍💻 Author
+
+**Ayman Rais**
+
+---
+
+This project is open-source and available under the MIT License.
